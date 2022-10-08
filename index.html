@@ -5,37 +5,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&family=Montserrat&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <nav>
-        <a href="#" class="logo">
-            <img src="images/logo_instagram.png" alt="logo_instagram">
-        </a>
-        <input type="text" class="search" placeholder="Buscar">
-        <span class="nav-links">
-            <img src="images/icon_home.png" alt="icon_home">
-            <img src="images/icon_message.png" alt="icon_message" >
-            <img src="images/icon_post.png" alt="icon_post">
-            <img src="images/icon_perfil.png" alt="icon_perfil">
-        </span>
+    <nav class="navbar">
+        <div class="nav-wrapper">
+            <img src="images/logo_instagram.png" class="brand-logo" alt="logo_instagram">
+            <input type="text" class="search-box" placeholder="Buscar">
+            <div class="nav-items">
+                <img src="images/icon_home.png" class="icon" alt="icon_home">
+                <img src="images/icon_message.PNG" class="icon" alt="icon_message">
+                <img src="images/icon_post.PNG" class="icon" alt="icon_post">
+                <img src="images/icon_like.PNG" class="icon" alt="icon_like">
+                <div class="user-profile"></div>
+            </div>
+        </div>
     </nav>
 
+    <section class="main">
+        <div class="wrapper">
+            <div class="left-col">
+                <div class="status-wrapper">
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="images/cover 1.png" alt=""></div>
+                        <p class="username">user_1</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="images/cover 2.png" alt=""></div>
+                        <p class="username">user_2</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="images/cover 3.png" alt=""></div>
+                        <p class="username">user_3</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="images/cover 4.png" alt=""></div>
+                        <p class="username">user_4</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="images/cover 5.png" alt=""></div>
+                        <p class="username">user_5</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="images/cover 6.png" alt=""></div>
+                        <p class="username">user_6</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="images/cover 7.png" alt=""></div>
+                        <p class="username">user_7</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="images/cover 8.png" alt=""></div>
+                        <p class="username">user_8</p>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="images/cover 1.png" alt=""></div>
+                            <p class="username">mi_usuario</p>
+                        </div>
+                        <img src="images/icon_options.PNG" class="options" alt="">
+                    </div>
+                    <img src="images/cover 1.png" alt="" class="post-image">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="images/icon_like.PNG" alt="" class="icon">
+                            <img src="images/icon_comment.PNG" alt="" class="icon">
+                            <img src="images/icon_send.PNG" alt="" class="icon">
+                            <img src="images/icon_save.PNG" alt="" class="save icon">
+                        </div>
+                        <p class="likes">100 Likes</p>
+                        <p class="description"><span>mi_usuario</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, laudantium.</p>
+                        <p class="post-time">Hace 2 minutos</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="images/icon_smile.PNG" class="icon" alt="icon_smile">
+                        <input type="text" class="comment-box" placeholder="Agrega un comentario...">
+                        <button class="comment-btn">Publicar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-col">
+
+            </div>
+        </div>
+    </section>
+<!-- 
+    <div>
+        <article class="card">
+            <div ></div>
+            <div class="top"><img src="https://via.placeholder.com/300" alt="imagen"></div>
+            <div class="bottom">
+                <h2><img src="images/icon_user_radius.png" alt="user_picture"> Usuario</h2>
+                <p>Descripción</p>
+            </div>
+        </article>
+    </div> -->
 
 
-
-
-
-
-
-
-
-
-
-
-
+<!-- 
     <footer>
         <p>Copyright &copy; 2022</p>
-    </footer>
+    </footer> -->
 </body>
 </html> 
