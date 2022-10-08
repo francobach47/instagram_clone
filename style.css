@@ -1,0 +1,58 @@
+/* *{color: red;} Si le pongo asterisco involucra a TODO */
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FAFAFA;
+    margin: 0;
+}
+
+nav{
+    background-color: #FFF;
+    height: 3.3em;
+    line-height: 3.3em;
+    padding: 0 13.5em;
+    border-bottom: 0.1px solid #DBDBDB ;
+}
+
+/* Barra superior */
+
+.logo{
+    text-decoration: none;
+}
+
+.logo img{
+    vertical-align: middle;
+    width: 100px;
+    height: 36px;
+}
+
+.search{
+    background: #FAFAFA;
+    margin-left: 19em;
+    height: 1.8em;
+    width: 15em;
+    border: 1px solid #DBDBDB;
+}
+
+.search ::placeholder{
+    text-align: center;
+    color: #b6b6b6;
+}
+
+.nav-links{
+    margin-left: 8em;
+}
+/* .nav-links a{
+    margin-left: 1.5em;
+} */
+.nav-links img{
+    width: 25px;
+    height: 25px;
+    color: #252525;
+    vertical-align: middle;
+    margin-left: 1.2em;
+
+}
