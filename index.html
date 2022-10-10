@@ -6,18 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-wrapper">
-            <img src="images/logo_instagram.png" class="brand-logo" alt="logo_instagram">
+            <a href="#"><img src="images/logo_instagram.png" class="brand-logo" alt="logo_instagram"></a>
             <input type="text" class="search-box" placeholder="Buscar">
             <div class="nav-items">
                 <img src="images/icon_home_black.png" class="icon" alt="icon_home">
-                <img src="images/icon_message.PNG" class="icon" alt="icon_message">
+                <img src="images/icon_message.PNG" class="icon" alt="icon_message"><span class="notifications-message">2</span>
                 <img src="images/icon_post.PNG" class="icon" alt="icon_post">
-                <img src="images/icon_like.PNG" class="icon" alt="icon_like"><span>5</span>
-                <div class="icon user-profile"></div>
+                <img src="images/icon_like.PNG" class="icon" alt="icon_like"><span class="notifications-likes">15</span>
+                <a href="perfil.html"><div class="icon user-profile"></div></a>
             </div>
         </div>
     </nav>
@@ -64,7 +71,10 @@
                     <div class="info">
                         <div class="user">
                             <div class="profile-pic"><img src="images/profile-pic.jpg" alt=""></div>
-                            <p class="username">mi_usuario</p>
+                            <div>
+                                <p class="username">mi_usuario</p>
+                                <p class="location">Trolltunga</p>
+                            </div>
                         </div>
                         <img src="images/icon_options.PNG" class="options" alt="">
                     </div>
@@ -78,6 +88,7 @@
                         </div>
                         <p class="likes">10 Me gusta</p>
                         <p class="description"><span>mi_usuario</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, laudantium.</p>
+                        <p class="comments">Ver los 3 comentarios</p>
                         <p class="post-time">HACE 5 MINUTOS</p>
                     </div>
                     <div class="comment-wrapper">
@@ -91,7 +102,10 @@
                     <div class="info">
                         <div class="user">
                             <div class="profile-pic"><img src="images/profile-pic.jpg" alt=""></div>
-                            <p class="username">mi_usuario</p>
+                            <div>
+                                <p class="username">mi_usuario</p>
+                                <p class="location">Kioto</p>
+                            </div>                        
                         </div>
                         <img src="images/icon_options.PNG" class="options" alt="">
                     </div>
@@ -118,7 +132,10 @@
                     <div class="info">
                         <div class="user">
                             <div class="profile-pic"><img src="images/profile-pic.jpg" alt=""></div>
-                            <p class="username">mi_usuario</p>
+                            <div>
+                                <p class="username">mi_usuario</p>
+                                <p class="location">Kioto</p>
+                            </div>                        
                         </div>
                         <img src="images/icon_options.PNG" class="options" alt="">
                     </div>
@@ -145,7 +162,10 @@
                     <div class="info">
                         <div class="user">
                             <div class="profile-pic"><img src="images/profile-pic.jpg" alt=""></div>
-                            <p class="username">mi_usuario</p>
+                            <div>
+                                <p class="username">mi_usuario</p>
+                                <p class="location">Cataratas del Iguazú</p>
+                            </div>                        
                         </div>
                         <img src="images/icon_options.PNG" class="options" alt="">
                     </div>
@@ -172,7 +192,10 @@
                     <div class="info">
                         <div class="user">
                             <div class="profile-pic"><img src="images/profile-pic.jpg" alt=""></div>
-                            <p class="username">mi_usuario</p>
+                            <div>
+                                <p class="username">mi_usuario</p>
+                                <p class="location">Islandia</p>
+                            </div>                        
                         </div>
                         <img src="images/icon_options.PNG" class="options" alt="">
                     </div>
@@ -199,7 +222,10 @@
                     <div class="info">
                         <div class="user">
                             <div class="profile-pic"><img src="images/profile-pic.jpg" alt=""></div>
-                            <p class="username">mi_usuario</p>
+                            <div>
+                                <p class="username">mi_usuario</p>
+                                <p class="location">Tromsø</p>
+                            </div>                        
                         </div>
                         <img src="images/icon_options.PNG" class="options" alt="">
                     </div>
@@ -226,7 +252,10 @@
                     <div class="info">
                         <div class="user">
                             <div class="profile-pic"><img src="images/profile-pic.jpg" alt=""></div>
-                            <p class="username">mi_usuario</p>
+                            <div>
+                                <p class="username">mi_usuario</p>
+                                <p class="location">Pirámides de Guiza</p>
+                            </div>                        
                         </div>
                         <img src="images/icon_options.PNG" class="options" alt="">
                     </div>
@@ -253,7 +282,10 @@
                     <div class="info">
                         <div class="user">
                             <div class="profile-pic"><img src="images/profile-pic.jpg" alt=""></div>
-                            <p class="username">mi_usuario</p>
+                            <div>
+                                <p class="username">mi_usuario</p>
+                                <p class="location">Bangkok</p>
+                            </div> 
                         </div>
                         <img src="images/icon_options.PNG" class="options" alt="">
                     </div>
@@ -275,6 +307,9 @@
                         <button class="comment-btn">Publicar</button>
                     </div>
                 </div>
+                <footer class="footer">
+                    <p>Copyright &copy; 2022. Franco Bach - Proyecto Integrador - UNTREF</p>
+                </footer>
             </div>
 
             <div class="right-col">
@@ -282,19 +317,22 @@
                     <div class="profile-pic">
                         <img src="images/profile-pic.jpg" alt="">
                     </div>
-                    <div>
-                        <p class="username">mi_usuario</p>
+                    <div class="data">
+                        <p class="username-suggestion">mi_usuario</p>
                         <p class="sub-text">Mi Nick</p>
                     </div>
                     <button class="action-btn">Cambiar</button>
                 </div>
-                <p class="suggestion-text">Sugerencias para ti</p>
+                <div class="suggestion-for-you">
+                    <p class="suggestion-text">Sugerencias para ti</p>
+                    <button class="action-btn">Ver todo</button>
+                </div>
                 <div class="profile-card">
                     <div class="profile-pic">
                         <img src="images/sugerencias/sugerencia_1.jpg" alt="">
                     </div>
-                    <div>
-                        <p class="username">sugerencia_1</p>
+                    <div class="data">
+                        <p class="username-suggestion">sugerencia_1</p>
                         <p class="sub-text">Nuevo en Instagram</p>
                     </div>
                     <button class="action-btn">Seguir</button>
@@ -304,9 +342,9 @@
                     <div class="profile-pic">
                         <img src="images/sugerencias/sugerencia_2.jpg" alt="">
                     </div>
-                    <div>
-                        <p class="username">sugerencia_2</p>
-                        <p class="sub-text">user_1 sigue a este usuario</p>
+                    <div class="data">
+                        <p class="username-suggestion">sugerencia_2</p>
+                        <p class="sub-text">user_1 sigue esta cuenta</p>
                     </div>
                     <button class="action-btn">Seguir</button>
                 </div>
@@ -315,8 +353,8 @@
                     <div class="profile-pic">
                         <img src="images/sugerencias/sugerencia_3.jpg" alt="">
                     </div>
-                    <div>
-                        <p class="username">sugerencia_2</p>
+                    <div class="data">
+                        <p class="username-suggestion">sugerencia_2</p>
                         <p class="sub-text">user_2 y 3 más siguen esta cuenta</p>
                     </div>
                     <button class="action-btn">Seguir</button>
@@ -324,11 +362,5 @@
             </div>
         </div>
     </section>
-
-
-<!-- 
-    <footer>
-        <p>Copyright &copy; 2022</p>
-    </footer> -->
 </body>
 </html> 
